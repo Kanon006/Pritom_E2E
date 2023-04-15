@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37344" started-at="2023-04-15T08:28:05Z" finished-at="2023-04-15T08:28:43Z">
+    <groups>
+    </groups>
+    <test name="FirefoxTest" duration-ms="22452" started-at="2023-04-15T08:28:05Z" finished-at="2023-04-15T08:28:28Z">
+      <class name="CrossBrowser">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:CrossBrowser@4e41089d]" name="beforeTest" is-config="true" duration-ms="2517" started-at="2023-04-15T08:28:05Z" finished-at="2023-04-15T08:28:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:CrossBrowser@4e41089d]" name="test" duration-ms="19923" started-at="2023-04-15T08:28:08Z" finished-at="2023-04-15T08:28:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- CrossBrowser -->
+    </test> <!-- FirefoxTest -->
+    <test name="ChromeTest" duration-ms="14878" started-at="2023-04-15T08:28:28Z" finished-at="2023-04-15T08:28:43Z">
+      <class name="CrossBrowser">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:CrossBrowser@6b67034]" name="beforeTest" is-config="true" duration-ms="1088" started-at="2023-04-15T08:28:28Z" finished-at="2023-04-15T08:28:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:CrossBrowser@6b67034]" name="test" duration-ms="13789" started-at="2023-04-15T08:28:29Z" finished-at="2023-04-15T08:28:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- CrossBrowser -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
